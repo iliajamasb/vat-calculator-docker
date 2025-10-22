@@ -4,7 +4,7 @@ pipeline{
         credentialsIdGCP = "k8s"
         namespace = "ns-7"
         // e.g. ns-1 for learner1, ns-2 for learner2
-        projectId= "sky-cohort-X"
+        projectId= "skyhybridengineerc1"
         
         imageName = "vatcalc"
         registry = "${dockerUserName}/${imageName}"
